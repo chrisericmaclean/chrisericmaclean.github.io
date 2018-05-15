@@ -5,13 +5,17 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, , h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
 		
+	}
+	h2
+	{text-color: #1e70b2
+	;
 	}
 
 
@@ -1843,7 +1847,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #5b5b5b;
+		color: #1e70b2;;
 		font-weight: 700;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
@@ -1915,6 +1919,7 @@
 			margin-bottom: 6em;
 			padding: 2em 0;
 			position: relative;
+
 		}
 
 			header.major:before, header.major:after {
@@ -1937,6 +1942,7 @@
 
 			header.major h2 {
 				margin: 0;
+
 			}
 
 			header.major p {
@@ -2421,6 +2427,7 @@
 		}
 
 		.feature h3, .feature h4, .feature h5, .feature h6 {
+			color: #1e70b2;
 			text-align: inherit;
 		}
 
@@ -2508,7 +2515,7 @@
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
-		color: rgba(255, 255, 255, 0.8);
+		color: #ffffff;;
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
