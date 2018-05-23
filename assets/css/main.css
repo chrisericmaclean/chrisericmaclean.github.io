@@ -1889,7 +1889,7 @@
 	}
 
 	blockquote {
-		border-left: solid 0.5em rgba(224, 224, 224, 0.75);
+		border-left: solid 0.5em rgba(30, 112, 178, 0.75);
 		font-style: italic;
 		padding: 1em 0 1em 2em;
 	}
@@ -2134,6 +2134,7 @@
 				width: 100%;
 			}
 
+
 		.image.icon {
 			-moz-perspective: 500px;
 			-webkit-perspective: 500px;
@@ -2250,7 +2251,9 @@
 
 	ul.actions {
 		cursor: default;
-		text-align: center;
+		text-align:center;
+		margin:auto;
+		
 	}
 
 		ul.actions:last-child {
@@ -2259,16 +2262,16 @@
 
 		ul.actions li {
 			display: inline-block;
-			padding: 0 0 0 1.5em;
+			padding: 0 0 0 0em;
 		}
 
 			ul.actions li:first-child {
-				padding: 0;
+				padding:  0;
 			}
 
 		ul.actions.vertical li {
 			display: block;
-			padding: 1.5em 0 0 0;
+			padding: 0 0 0 0;
 		}
 
 			ul.actions.vertical li:first-child {
@@ -2711,7 +2714,7 @@
 /* Main */
 
 	#main {
-		padding: 6em 0 5em 0;
+		padding: 6em 0 0 0;
 		position: relative;
 		z-index: 1;
 	}
@@ -3131,3 +3134,119 @@
 				}
 
 	}
+
+
+
+	/* Customize the label (the container) 
+.container2 {
+  
+  position: relative;
+  
+  margin-bottom: 12px;
+  cursor: pointer;  
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox 
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+/* Create a custom checkbox
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #1e70b2;
+}
+
+/* On mouse-over, add a blue background color 
+.container2:hover input ~ .checkmark {
+  background-color: #125082;
+}
+
+
+
+/* Create the checkmark/indicator (hidden when not checked) 
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked 
+.container2 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator 
+.container2 .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+*/
+.checked {
+    color: orange;
+}
+
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container3 {
+    border: 2px solid #ccc;
+    width:90%;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    padding-bottom:0px;
+    margin: auto;
+}
+
+/* Clear floats after containers */
+.container3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container3 img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container3 span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container3 {
+    text-align: center;
+  }
+
+  .container3 img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
